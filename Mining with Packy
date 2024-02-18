@@ -1,0 +1,9 @@
+# set packy as organizer 
+dclicktype 'pickaxe'
+wft
+targetrelloc 1 1
+pause 1000
+    if weight > 250
+        organizer 1
+    endif
+loop
