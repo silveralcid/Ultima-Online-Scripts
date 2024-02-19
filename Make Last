@@ -1,0 +1,7 @@
+#Make last smithing
+
+dclicktype 'tongs'
+wait 500
+gumpresponse 21
+wait 2000
+loop
