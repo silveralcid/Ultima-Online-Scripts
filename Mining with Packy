@@ -1,4 +1,4 @@
-# set packy as organizer #1 and set gems to transfer, open packy back pack and self backpack, script will use tools in packy.
+# set packy as organizer #1 and set gems to transfer
 
 if findtype 'shovel'
     dclicktype 'shovel'
@@ -141,4 +141,12 @@ if insysmsg 'There is no metal here to mine.'
     walk up
     walk up
 endif
+walk up
+walk up
+walk up
+walk up
+walk right
+walk right
+walk right
+walk right
 loop
