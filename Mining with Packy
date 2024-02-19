@@ -1,8 +1,8 @@
-# set packy as organizer #1 and set gems to transfer, open booth main bag and packy bag, can use PCIKAXE ONLY in packy bag. Randomly go into different areas.
+# set packy as organizer #1 and set gems to transfer, use pickaxes only, can put on packy.
 
 if findtype 'shovel'
     dclicktype 'shovel'
-    wft
+    pause 250
     targetrelloc 1 1
     pause 1000
     if weight > 250
@@ -11,7 +11,7 @@ if findtype 'shovel'
     pause 500
 elseif findtype 'pickaxe'
     dclicktype 'pickaxe'
-    wft
+    pause 250
     targetrelloc 1 1
     pause 1000
     if weight > 250
@@ -41,7 +41,7 @@ if findtype 'shovel'
     pause 500
 elseif findtype 'pickaxe'
     dclicktype 'pickaxe'
-    wft
+    pause 250
     targetrelloc 1 1
     pause 1000
     if weight > 250
@@ -80,7 +80,7 @@ if findtype 'shovel'
     pause 500
 elseif findtype 'pickaxe'
     dclicktype 'pickaxe'
-    wft
+    pause 250
     targetrelloc 1 1
     pause 1000
     if weight > 250
@@ -121,7 +121,7 @@ if findtype 'shovel'
     pause 500
 elseif findtype 'pickaxe'
     dclicktype 'pickaxe'
-    wft
+    pause 250
     targetrelloc 1 1
     pause 1000
     if weight > 250
