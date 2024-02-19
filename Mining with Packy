@@ -1,4 +1,4 @@
-# set packy as organizer #1 and set gems to transfer, open booth main bag and packy bag, can use tools in packy bag. Randomly go into different areas.
+# set packy as organizer #1 and set gems to transfer, open booth main bag and packy bag, can use PCIKAXE ONLY in packy bag. Randomly go into different areas.
 
 if findtype 'shovel'
     dclicktype 'shovel'
