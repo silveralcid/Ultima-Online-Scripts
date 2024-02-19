@@ -4,6 +4,10 @@ if findtype 'shovel'
     wft
     targetrelloc 1 1
     pause 1000
+    if weight > 250
+        organizer 1
+    endif
+    pause 500
 elseif findtype 'pickaxe'
     dclicktype 'pickaxe'
     wft
@@ -12,5 +16,6 @@ elseif findtype 'pickaxe'
     if weight > 250
         organizer 1
     endif
+    pause 500
 endif
 loop
