@@ -99,6 +99,16 @@ if insysmsg 'There is no metal here to mine.'
     walk right
     walk right
     walk right
+    walk right
+    walk right
+    walk right
+    walk right
+    walk right
+    walk right
+    walk right
+    walk right
+    walk right
+    walk right
 endif
 if findtype 'shovel'
     dclicktype 'shovel'
