@@ -1,4 +1,4 @@
-# set packy as organizer #1 and set gems to transfer
+# set packy as organizer #1 and set gems to transfer, open packy back pack and self backpack, script will use tools in packy.
 
 if findtype 'shovel'
     dclicktype 'shovel'
