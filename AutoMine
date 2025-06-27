@@ -1,0 +1,61 @@
+if weight > 250
+    organizer 1
+    pause 1000 
+endif
+
+if not findtype 'shovel' 'backpack'
+    while not findtype 'shovel' 'backpack'
+        dclicktype 'tinker tools'
+        waitforgump 2066278152
+        gumpresponse 101
+        waitforgump 1456474333
+        gumpresponse 1
+        waitforgump 2066278152
+        pause 1000
+        gumpclose
+    endwhile
+endif
+
+dclicktype 'shovel' 'backpack'
+pause 500
+targetrelloc 0 0
+pause 500
+
+if insysmsg 'There is no metal here to mine.'
+    clearsysmsg
+    random 4
+    if insysmsg 'Random: 1'
+        walk 'North'
+        walk 'North'
+        walk 'North'
+        walk 'North'
+        walk 'North'
+        walk 'North'
+        pause 100
+    elseif insysmsg 'Random: 2'
+        walk 'South'
+        walk 'South'
+        walk 'South'
+        walk 'South'
+        walk 'South'
+        walk 'South'
+        pause 100  
+    elseif insysmsg 'Random: 3'
+        walk 'East'
+        walk 'East'
+        walk 'East'
+        walk 'East'
+        walk 'East'
+        walk 'East'
+        pause 100
+    else
+        walk 'West'
+        walk 'West'
+        walk 'West'
+        walk 'West'
+        walk 'West'
+        walk 'West'
+        pause 100
+    endif
+endif
+loop
